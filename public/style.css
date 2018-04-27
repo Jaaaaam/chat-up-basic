@@ -1,0 +1,150 @@
+html, body {
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  color: #757575; }
+
+.nav {
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  height: 60px;
+  color: white;
+  background: #FF5F6D;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top left, #FFC371, #FF5F6D);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top left, #FFC371, #FF5F6D);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+  .nav-brand {
+    font-family: 'Pacifico', cursive;
+    color: white;
+    position: fixed;
+    top: 7px;
+    left: calc(50% - 109px); }
+  .nav-menu {
+    margin: 15px;
+    font-size: 20px; }
+    .nav-menu .fa {
+      cursor: pointer;
+      color: rgba(255, 255, 255, 0.5);
+      margin-right: 10px; }
+      .nav-menu .fa:hover {
+        color: white; }
+  .nav-profile {
+    position: absolute;
+    right: 0px;
+    padding: 10px 15px 10px 15px;
+    cursor: pointer; }
+    .nav-profile:hover {
+      text-decoration: underline; }
+    .nav-profile-name {
+      margin-top: 10px; }
+    .nav-profile-img {
+      margin-left: 15px;
+      margin-top: -10px; }
+
+.sidebar {
+  position: fixed;
+  width: 330px;
+  top: 60px;
+  bottom: 0px;
+  background-color: #fafafa;
+  border-right: 1px solid #e0e0e0; }
+  .sidebar-search {
+    padding: 15px; }
+  .contact {
+    padding: 0px; }
+    .contact li {
+      padding: 15px;
+      list-style-type: none;
+      border-bottom: 1px solid #eeeeee;
+      padding-bottom: 0px;
+      padding-top: 0px; }
+    .contact-image-container {
+      width: 20%;
+      display: inline; }
+      .contact-image-container img {
+        margin-bottom: 20px;
+        border: 2px solid #FFBB71;
+        padding: 2px;
+        cursor: pointer; }
+    .contact-details {
+      width: 80%;
+      display: inline-block;
+      padding-left: 15px;
+      margin-top: 10px;
+      cursor: pointer; }
+      .contact-details p {
+        margin-bottom: 0px; }
+      .contact-details i {
+        color: #23D1A3;
+        font-size: 20px;
+        cursor: pointer; }
+      .contact-details .contact-name {
+        font-weight: bold; }
+      .contact-details .last-message {
+        font-size: 15px;
+        color: #757575; }
+
+.chat {
+  position: absolute;
+  left: 330px;
+  top: 60px;
+  right: 0px;
+  bottom: 0px; }
+  .chat-header {
+    height: 60px;
+    border-bottom: 1px solid #eeeeee; }
+  .chat-timeline {
+    height: calc(100% - 120px - 60px);
+    padding: 15px; }
+    .chat-timeline img {
+      margin-right: 5px;
+      border: 1px solid #FFBB71; }
+    .chat-timeline .chat-bubble {
+      display: inline-block;
+      position: relative;
+      max-width: 600px;
+      width: auto;
+      height: auto;
+      background-color: #FF896F;
+      border-radius: 10px; }
+      .chat-timeline .chat-bubble .chat-text {
+        color: #fafafa;
+        padding: 10px;
+        text-align: left;
+        line-height: 1.5em; }
+  .chat-response {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    height: 120px;
+    padding: 15px;
+    background-color: #eeeeee; }
+    .chat-response textarea {
+      width: calc(100% - 65px);
+      display: inline-block;
+      resize: none; }
+    .chat-response i {
+      font-size: 50px;
+      position: absolute;
+      padding: 15px;
+      color: #FFBB71;
+      cursor: pointer; }
+
+.round-image, .round-image--small {
+  height: 45px;
+  width: 45px;
+  border-radius: 22px;
+  border: 2px solid #eeeeee; }
+  .round-image--small {
+    height: 30px;
+    width: 30px;
+    border-radius: 22px; }
+
+.gray-background {
+  background-color: #eeeeee !important; }
+
+.gray-text {
+  color: #757575 !important; }
